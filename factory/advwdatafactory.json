@@ -1,0 +1,9 @@
+{
+	"name": "advwdatafactory",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0ef3ff0e-3cf2-4d3c-9030-8b50f884cf9c",
+		"tenantId": "0700d62f-4d79-42f6-be90-11fdbf0e6765"
+	}
+}
