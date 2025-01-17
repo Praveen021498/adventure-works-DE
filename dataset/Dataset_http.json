@@ -1,0 +1,22 @@
+{
+	"name": "Dataset_http",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HTTPlinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Praveen021498/adventure-works-DE/refs/heads/main/dataset/AdventureWorks_Calendar.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
